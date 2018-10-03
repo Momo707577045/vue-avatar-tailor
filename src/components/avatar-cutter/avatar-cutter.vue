@@ -575,7 +575,7 @@ export default {
         if (this.returnType === 'url') {
           this.$emit('enter', this.$refs.$canvas.toDataURL()) // 返回链接
         } else if (this.returnType === 'file') {
-          // this.$emit('enter', this.base64ToFile(this.$refs.$canvas.toDataURL(), 'avatar.png')) // 返回文件
+          this.$emit('enter', this.base64ToFile(this.$refs.$canvas.toDataURL(), 'avatar.png')) // 返回文件
         }
       } else {
         this.$message('请上传图片', 'error')
