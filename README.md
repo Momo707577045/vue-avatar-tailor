@@ -1,7 +1,7 @@
 # vue-avatar-tailor组件
 vue，头像裁剪组件，可对上传的图片用九宫格进行简单的裁剪
 
-![运行效果](./example.png)
+![运行效果](./example.gif)
 
 
 # 示例运行步骤
