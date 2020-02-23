@@ -566,7 +566,7 @@ export default {
           this.setPreview()
         })
       }
-      reader.readAsDataURL(fileObj)
+      if(fileObj) reader.readAsDataURL(fileObj)
     },
 
     // 确认
